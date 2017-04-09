@@ -1,0 +1,11 @@
+Motivation
+
+	The adapter pattern is adapting between classes and objects. Like any adapter 
+	in the real world it is used to be an interface, a bridge between two objects.
+	
+Intent
+
+	1.Convert the interface of a class into another interface clients expect.
+	
+	2.Adapter lets classes work together, that could not otherwise because of incompatible interfaces.
+	

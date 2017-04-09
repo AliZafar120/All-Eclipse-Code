@@ -1,0 +1,34 @@
+import java.awt.Graphics;
+
+
+public class Tree extends CompositeShape{
+	
+	private int x1,y1,height;
+	private Graphics g;
+	
+	public Tree(int x1, int y1,int height, Graphics g) {
+		/*
+		 * drawing tree with given height and position
+		 */
+		
+		this.x1 = x1;
+		this.y1 = y1;
+		this.height=height;
+		this.g=g;
+		buildShape();
+	}
+	
+	
+	@Override
+	public void buildShape() {
+		// TODO Auto-generated method stub
+		
+		shapes.add(new Line(x1, y1, x1, y1-height, g));
+		shapes.add(new Line(x1-height/3, y1-(height+height/3), x1+height/3, y1-(height-height/3), g));
+		shapes.add(new Line(x1-height/3, y1-(height-height/3), x1+height/3, y1-(height+height/3), g));
+		
+	}
+	
+
+
+}

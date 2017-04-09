@@ -1,0 +1,31 @@
+Motivation
+	
+	The Prototype design pattern is the one in question. It allows an object to create customized 
+	objects without knowing their class or any details of how to create them. Up to this point 
+	it sounds a lot like the Factory Method pattern, the difference being the fact that for
+	the Factory the palette of prototypical objects never contains more than one object.
+
+Intent
+
+    specifying the kind of objects to create using a prototypical instance
+    creating new objects by copying this prototype
+
+Use Prototype Pattern when a system should be independent of how its products are created, composed, and represented, and:
+
+    Classes to be instantiated are specified at run-time
+    Avoiding the creation of a factory hierarchy is needed
+    It is more convenient to copy an existing instance than to create a new one.
+
+
+Hot points
+
+Prototype Manager – implemented usually as a hashtable keeping the object to clone. 
+					When use it, prototype become a factory method which uses cloning
+					instead of instantiation.
+Deep Clones vs. Shallow Clones – when we clone complex objects which contains other objects,
+					 we should take care how they are cloned. We can clone contained
+					 objects also (deep cloning) or we can the same reference for them,
+					 and to share them between cloned container objects.
+Initializing Internal States – there are certain situations when objects need to be initialized
+					 after they are created.
+

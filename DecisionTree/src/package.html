@@ -1,0 +1,41 @@
+<html>
+<body>
+<p>
+This package contains the program that creates a decision tree
+classifier. 
+</p>
+
+<p>
+A decision tree represent a set of <em>decision</em> rules in a
+hierarchical structure. A decision rule establishes connection
+between the attributes and a value of the target attribute (class
+value). The antecedent of a rule is a set of AND connected conditions;
+the consequence of the rule is a class value. An example for an
+decision rule is: 
+<pre>age>40 AND income>10000Eur --> good costumer</pre>
+</p>
+
+<p>
+A decision tree is a rooted tree. Each inner node contains a condition
+and each leaf contains a class value. An decision rule can be
+associated with each leaf: the antecedent consist of the conditions of
+nodes that are on the path from the root to the leaf, and the
+consequence is the class value of the leaf. Each training point can be
+classified to a leaf. For this we have to evaluate the condition of
+the root on the training point; it assigns a child of a root. We
+continue this procedure recursively until a leaf is reached.
+</p>
+
+<p>
+It may be useful and informative if two parameters are associated with
+each leaf. The <em>support</em> of a leaf gives the number of training
+points that are classified to the leaf. The <em>confidence</em> of a
+leaf is obtained by dividing the number of properly classified
+training points (i.e. the class value of the training point
+corresponds to the class value of the leaf) by the support of the
+leaf. In some application domain it maybe useful to view the training
+points that were classified to a selected leaf.
+</p>
+
+</body>
+</html>

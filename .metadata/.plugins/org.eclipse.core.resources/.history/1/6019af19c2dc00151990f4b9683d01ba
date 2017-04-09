@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+
+public class CompositeShape implements IShape{
+
+	ArrayList<IShape>  shapes = new ArrayList<IShape>();
+	@Override
+	public void drawshape() {
+		// TODO Auto-generated method stub
+		for(IShape a: shapes){
+			a.drawshape();
+		}
+		
+	}
+	
+	
+	public void buildShape(){
+		
+		
+	}
+
+}

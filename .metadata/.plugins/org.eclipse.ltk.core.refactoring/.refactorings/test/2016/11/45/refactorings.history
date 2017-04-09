@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;AI_Assignment_3/src&apos;&#x0D;&#x0A;- Original project: &apos;test&apos;&#x0D;&#x0A;- Destination element: &apos;AI_Assignment_3/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     T3.src.KnnAlgorithm.java&#x0D;&#x0A;     T3.src.Implementaion.java&#x0D;&#x0A;     K_Value_Accuracy.txt&#x0D;&#x0A;     K_Value_Accuracy&#x0D;&#x0A;     test.txt&#x0D;&#x0A;     train.txt" description="Copy elements" destination="=AI_Assignment_3/src" element1="src/T3/src/K_Value_Accuracy.txt" element2="src/T3/src/K_Value_Accuracy" element3="src/T3/src/test.txt" element4="src/T3/src/train.txt" element5="/src&lt;T3.src{KnnAlgorithm.java" element6="/src&lt;T3.src{Implementaion.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1478023175757" units="2" version="1.0"/>
+</session>

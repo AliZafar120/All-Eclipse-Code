@@ -1,0 +1,18 @@
+18:14:05 **** Incremental Build of configuration Debug for project a.c ****
+Info: Internal Builder is used for build
+gcc -o a.c.exe a.o 
+c:/program files/mingw/bin/../lib/gcc/mingw32/4.7.1/../../../libmingw32.a(main.o):main.c:(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+18:15:37 **** Incremental Build of configuration Debug for project a.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o a.o "..\\a.c" 
+gcc -o a.c.exe a.o 
+Info: Nothing to build for test2
+Info: Nothing to build for testc
+Info: Nothing to build for test2
+18:17:05 **** Rebuild of configuration Debug for project test3.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o test3.c.exe test.o 
+Info: Nothing to build for testc
+Info: Nothing to build for test3.c

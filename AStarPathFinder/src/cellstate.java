@@ -1,0 +1,3 @@
+
+
+public enum cellstate{WALKABLE, UNWALKABLE, STARTINGPOINT, ENDINGPOINT}

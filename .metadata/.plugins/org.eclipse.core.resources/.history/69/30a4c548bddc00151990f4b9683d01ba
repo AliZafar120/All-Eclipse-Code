@@ -1,0 +1,76 @@
+// Fig. 8.20: TestDraw.java
+import java.awt.Graphics;
+import java.awt.MouseInfo;
+import java.awt.Point;
+import java.awt.PointerInfo;
+
+
+import java.awt.event.MouseAdapter;
+
+
+import java.awt.event.MouseListener;
+
+
+
+// Creating a JFrame to display a DrawPanel.
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import org.w3c.dom.events.MouseEvent;
+
+public class TestDraw extends MouseAdapter
+{
+   public static void main( String[] args )
+   {
+      DrawPanel panel = new DrawPanel();  
+      JPanel pan= new JPanel();
+      JFrame application = new JFrame();
+      panel.addMouseListener(new MousePosition());
+      
+      application.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+      application.add( panel );
+      application.setSize( 900, 600 );
+      application.setVisible( true );
+
+   } // end main
+   
+   
+} // end class TestDraw
+
+class DrawPanel extends JPanel
+{
+
+   // for each shape array, draw the individual shapes
+   public void paintComponent( Graphics g )
+   {
+	
+	   
+      super.paintComponent( g );
+     Line a1=new Line(50,50, 70,60, g);
+   
+     // Line a2=new Line(259,108, 243, 292, g);
+      Rectangle c = new Rectangle(120,120,40,40,g);
+      c.drawshape();
+      Tree t= new Tree(150,150,70,g);
+      House h= new House(549,301,g);
+    // h.drawshape();
+      t.drawshape();
+      //a2.drawshape();
+     //a1.drawshape();
+      // draw the lines
+    
+   } // end method paintComponent
+} // end class DrawPanel
+
+
+
+class MousePosition extends MouseAdapter{
+	   public void mouseClicked(java.awt.event.MouseEvent e){
+		   int x=e.getX();
+		   int y= e.getY();
+		   System.out.println("X is "+ x+"\n"+"Y is "+y);
+	   }
+	
+	
+}
+

@@ -1,0 +1,10 @@
+Dhaka 100
+Rajshahi 80
+Khulna 70
+Jessore 60
+Bogra 55
+Satkhira 40
+Kaligonj 0
+Hobigonj 110
+Kishoregonj 130
+Comilla 120

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.eclipse.php.core.workspaceDefaultLocale=en_US
+org.eclipse.php.ui.editor.templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.php.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="php_new_file_context" deleted\="false" description\="Simple php file" enabled\="true" id\="org.eclipse.php.ui.editor.templates.php.author" name\="New simple PHP file">&lt;?php\r\n${cursor}\r\n?&gt;</template></templates>
+org.eclipse.php.uihoverModifierMasks=org.eclipse.php.ui.editor.hover.BestMatchHover;0;org.eclipse.php.debug.ui.hovers.PHPDebugTextHover;0;org.eclipse.php.xdebug.ui.hover.XDebugTextHover;0;org.eclipse.php.ui.editor.hover.ProblemHover;0;org.eclipse.php.ui.editor.hover.PHPDocumentationHover;0;org.eclipse.php.ui.editor.hover.PHPSourceTextHover;262144;org.eclipse.php.ui.editor.hover.PHPAnnotationTextHover;0;
+org.eclipse.php.uihoverModifiers=org.eclipse.php.ui.editor.hover.BestMatchHover;0;org.eclipse.php.debug.ui.hovers.PHPDebugTextHover;\!0;org.eclipse.php.xdebug.ui.hover.XDebugTextHover;\!0;org.eclipse.php.ui.editor.hover.ProblemHover;\!0;org.eclipse.php.ui.editor.hover.PHPDocumentationHover;\!0;org.eclipse.php.ui.editor.hover.PHPSourceTextHover;Ctrl;org.eclipse.php.ui.editor.hover.PHPAnnotationTextHover;\!0;
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

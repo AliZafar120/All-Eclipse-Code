@@ -1,0 +1,13 @@
+
+public class River extends CompositeShape {
+	
+	
+	private int x1,y1,x2,y2;
+	
+	public River() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

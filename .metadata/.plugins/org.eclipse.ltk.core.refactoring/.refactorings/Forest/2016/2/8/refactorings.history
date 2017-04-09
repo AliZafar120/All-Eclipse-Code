@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;Forest&apos;&#x0D;&#x0A;- Original project: &apos;Forest&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     DescribeTrees.java&#x0D;&#x0A;     DTree.java&#x0D;&#x0A;     MainRun.java&#x0D;&#x0A;     RandomForest.java&#x0D;&#x0A;     input.txt&#x0D;&#x0A;     input1.txt" description="Delete elements" element1="src/input1.txt" element2="src/input.txt" element3="/src&lt;{MainRun.java" element4="/src&lt;{DescribeTrees.java" element5="/src&lt;{DTree.java" element6="/src&lt;{RandomForest.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1455632663129" subPackages="false" version="1.0"/>
+</session>
